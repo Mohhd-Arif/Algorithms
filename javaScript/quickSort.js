@@ -8,7 +8,7 @@ for(var i = 1;i<listOfArray.length;i++){
 	var j = i-1;
 	while(j>=0 && key < listOfArray[j]){
 		//console.log("loop variation: j=",j,"value =",listOfArray[j],"i = ",i,"value=",listOfArray[i]);
-		//console.log("list of array = ",listOfArray);
+		//console.log("list of array =",listOfArray);
 		listOfArray[j+1] = listOfArray[j];
 		j--;
 		//console.log("list of array after distribution :" ,listOfArray);
